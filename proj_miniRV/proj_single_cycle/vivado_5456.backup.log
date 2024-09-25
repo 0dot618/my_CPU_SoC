@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jul 30 09:35:25 2024
+# Process ID: 5456
+# Current directory: E:/proj_miniRV/proj_single_cycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4400 E:\proj_miniRV\proj_single_cycle\proj_single_cycle.xpr
+# Log file: E:/proj_miniRV/proj_single_cycle/vivado.log
+# Journal file: E:/proj_miniRV/proj_single_cycle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/proj_miniRV/proj_single_cycle/proj_single_cycle.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'D:/220110504/comp2012/Lab2-CPUSoC/proj_miniRV/proj_single_cycle/proj_single_cycle.cache/ip'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'D:/220110504/comp2012/Lab2-CPUSoC/proj_miniRV/proj_single_cycle/proj_single_cycle.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 1085.113 ; gain = 198.074
+update_compile_order -fileset sources_1
+INFO: [Device 21-403] Loading part xc7a100tfgg484-1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 30 11:55:59 2024...

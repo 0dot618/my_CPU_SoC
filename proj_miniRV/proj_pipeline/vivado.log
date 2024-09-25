@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Aug  2 15:38:44 2024
+# Process ID: 2744
+# Current directory: E:/proj_miniRV/proj_pipeline
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9896 E:\proj_miniRV\proj_pipeline\proj_pipeline.xpr
+# Log file: E:/proj_miniRV/proj_pipeline/vivado.log
+# Journal file: E:/proj_miniRV/proj_pipeline\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/proj_miniRV/proj_pipeline/proj_pipeline.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Administrator/Desktop/proj_pipeline' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/proj_miniRV/proj_pipeline/calculate.coe', nor could it be found using path 'C:/Users/Administrator/Desktop/proj_pipeline/calculate.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/proj_miniRV/proj_pipeline/calculator.coe', nor could it be found using path 'C:/Users/Administrator/Desktop/proj_pipeline/calculator.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/proj_miniRV/proj_pipeline/calculate1.coe', nor could it be found using path 'C:/Users/Administrator/Desktop/proj_pipeline/calculate1.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/proj_miniRV/proj_pipeline/calculator2.coe', nor could it be found using path 'C:/Users/Administrator/Desktop/proj_pipeline/calculator2.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/proj_miniRV/proj_pipeline/calculator3.coe', nor could it be found using path 'C:/Users/Administrator/Desktop/proj_pipeline/calculator3.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/proj_miniRV/proj_pipeline/calculator4.coe', nor could it be found using path 'C:/Users/Administrator/Desktop/proj_pipeline/calculator4.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/proj_miniRV/proj_pipeline/calculator5.coe', nor could it be found using path 'C:/Users/Administrator/Desktop/proj_pipeline/calculator5.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/proj_miniRV/proj_pipeline/calculator6.coe', nor could it be found using path 'C:/Users/Administrator/Desktop/proj_pipeline/calculator6.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/proj_miniRV/proj_pipeline/calculator7.coe', nor could it be found using path 'C:/Users/Administrator/Desktop/proj_pipeline/calculator7.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 876.531 ; gain = 217.875
+update_compile_order -fileset sources_1
+INFO: [Device 21-403] Loading part xc7a100tfgg484-1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Aug  2 23:22:38 2024...

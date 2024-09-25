@@ -1,0 +1,75 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Jul 25 16:48:19 2024
+| Host         : PA32 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file miniRV_SoC_control_sets_placed.rpt
+| Design       : miniRV_SoC
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     9 |
+| Unused register locations in slices containing registers |    20 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            1 |
+|      4 |            2 |
+|    16+ |            6 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               5 |            4 |
+| No           | No                    | Yes                    |             485 |          159 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             210 |           79 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------------------------------+-----------------------------------------+------------------+------------------+----------------+
+|                        Clock Signal                       |              Enable Signal              | Set/Reset Signal | Slice Load Count | Bel Load Count |
++-----------------------------------------------------------+-----------------------------------------+------------------+------------------+----------------+
+|  Core_cpu/U_id_ex/ex_npc_op_reg[0]_0                      |                                         |                  |                1 |              1 |
+|  cpu_clk_BUFG                                             |                                         |                  |                3 |              4 |
+|  cpu_clk_BUFG                                             | U_io_dig/led_num                        | fpga_rst_IBUF    |                1 |              4 |
+|  cpu_clk_BUFG                                             | U_io_dig/before_end                     | fpga_rst_IBUF    |                7 |             23 |
+|  cpu_clk_BUFG                                             | Core_cpu/U_ex_mem/E[0]                  | fpga_rst_IBUF    |                9 |             24 |
+|  cpu_clk_BUFG                                             | Core_cpu/U_ex_mem/mem_alu_C_reg[5]_0[0] | fpga_rst_IBUF    |                9 |             32 |
+|  Core_cpu/U_idecode/U_RF/register_reg_r1_0_31_0_5_i_1_n_0 | Core_cpu/U_mem_wb/p_0_in__0             |                  |               12 |             96 |
+|  cpu_clk_BUFG                                             | Core_cpu/U_id_ex/E[0]                   | fpga_rst_IBUF    |               53 |            127 |
+|  cpu_clk_BUFG                                             |                                         | fpga_rst_IBUF    |              159 |            485 |
++-----------------------------------------------------------+-----------------------------------------+------------------+------------------+----------------+
+
+
